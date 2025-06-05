@@ -23,7 +23,7 @@ int main() {
     //     return 1;
     // }
 
-    std::string json_message = R"({"Name": "Payas", "Age": 19})";
+    std::string json_message = R"({"Name": "Toms", "Age": 19})";
 
     RdKafka::ErrorCode resp = producer->produce(
         topic,
